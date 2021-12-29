@@ -6,7 +6,7 @@
 /*   By: mbourgeo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 22:46:53 by mbourgeo          #+#    #+#             */
-/*   Updated: 2021/12/22 17:45:46 by mbourgeo         ###   ########.fr       */
+/*   Updated: 2021/12/23 01:11:35 by mbourgeo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <stdio.h>
 # include <ctype.h>
-# include <bsd/string.h>
 # include <string.h>
 # include <stddef.h>
 # include <stdlib.h>

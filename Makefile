@@ -6,7 +6,7 @@
 #    By: mbourgeo <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/02 22:04:39 by mbourgeo          #+#    #+#              #
-#    Updated: 2021/12/22 16:55:47 by mbourgeo         ###   ########.fr        #
+#    Updated: 2021/12/23 01:10:51 by mbourgeo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,7 +70,7 @@ RM		= rm -f
 CFLAGS	 = -Wall -Wextra -Werror
 
 ${NAME}:	${OBJS}
-			${AR} -o ${NAME} ${OBJS}
+			${AR} ${NAME} ${OBJS}
 
 all:		${NAME}
 
